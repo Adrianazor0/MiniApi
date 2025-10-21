@@ -21,3 +21,28 @@
 {"level":"info","message":"Success","method":"GET","status":404,"timestamp":"2025-10-21T07:12:29.191Z","url":"/pollo"}
 {"level":"error","message":"Unknown page","timestamp":"2025-10-21T07:12:49.758Z"}
 {"level":"info","message":"Success","method":"GET","status":404,"timestamp":"2025-10-21T07:12:49.759Z","url":"/pollo"}
+{"level":"error","message":"Unknown page","timestamp":"2025-10-21T22:10:14.854Z"}
+{"level":"info","message":"Success","method":"GET","status":404,"timestamp":"2025-10-21T22:10:14.856Z","url":"/pollo"}
+{"level":"error","message":"Unknown page","timestamp":"2025-10-21T22:20:23.577Z"}
+{"level":"error","message":"Unknown page","timestamp":"2025-10-21T22:24:11.831Z"}
+{"level":"error","message":"Success","method":"GET","status":404,"timestamp":"2025-10-21T22:24:11.834Z","url":"/pollo"}
+{"level":"error","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:24:24.025Z","url":"/"}
+{"level":"error","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:25:45.804Z","url":"/"}
+{"level":"error","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:26:04.067Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:26:15.130Z","url":"/"}
+{"level":"error","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:26:15.132Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:27:14.360Z","url":"/"}
+{"level":"error","message":"Unknown page","timestamp":"2025-10-21T22:27:32.575Z"}
+{"level":"error","message":"Failure","method":"GET","status":404,"timestamp":"2025-10-21T22:27:32.575Z","url":"/55"}
+{"level":"error","message":"Unknown page","timestamp":"2025-10-21T22:28:22.482Z"}
+{"level":"error","message":"Failure","method":"GET","status":404,"timestamp":"2025-10-21T22:28:22.485Z","url":"/55"}
+{"level":"error","message":"Failure","method":"GET","status":404,"timestamp":"2025-10-21T22:30:52.749Z","url":"/55"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:31:13.388Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:31:43.119Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:33:14.463Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:34:46.263Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:36:40.248Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:38:15.923Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:40:37.548Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:43:52.718Z","url":"/"}
+{"level":"info","message":"Success","method":"GET","status":200,"timestamp":"2025-10-21T22:44:55.763Z","url":"/"}

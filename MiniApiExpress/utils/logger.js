@@ -2,10 +2,10 @@ import winston from 'winston';
 const { combine, timestamp, json } = winston.format;
 
 const logger = winston.createLogger({
-  level: process.env.LOG_LEVEL ||'info',
+  level: process.env.LOG_LEVEL,
   format: combine(timestamp(
     timestamp({
-        format: 'YYYY-MM-DD hh:mm:ss.SSS A', // 2022-01-25 03:23:10.350 PM
+        format: 'yyyy-MM-dd' + 'HH:mm:ss', // 2022-01-25 03:23:10.350 PM
     })
   ), json()),
   transports: [

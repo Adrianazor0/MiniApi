@@ -5,7 +5,6 @@ import logger from "./utils/logger.js";
 import morgan from "morgan"
 import fs from 'node:fs';
 
-
 const app = express();
 
 app.use(express.json());
@@ -31,9 +30,18 @@ const morganMiddleware = morgan(
   {
     stream: {
       // Configure Morgan to use our custom logger with the http severity
-      write: (message) => {
-        const data = JSON.parse(message);
-        logger.info(`Success`, data);
+      write: (message) => {{
+          const data = JSON.parse(message);
+          if(data.status >= 500) {
+            logger.error(`Server Error`, data);
+          } else if (data.status < 500) {
+            logger.error(`Client Error`, data);
+          } else if (data.status < 400) {
+            logger.error(`Client Error`, data);
+          } else if (data.status < 300) {
+            logger.info(`Success`, data);
+          } 
+        }
       },
     },
   }
@@ -69,7 +77,6 @@ app.get('/users', (req, res)=>{
 app.all('/{*any}', (req, res) => {
     res.status(404);
     res.send("Error 404, Page not found")
-    logger.error("Unknown page")
 })
 
 app.listen(PORT, (error) => {
